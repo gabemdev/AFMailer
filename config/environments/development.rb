@@ -32,31 +32,6 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_caching = false
-
-#   ActionMailer::Base.smtp_settings = {
-#   # :port =>           ENV['SMTP_PORT'],
-#   # :address =>        ENV['SMTP_SERVER'],
-#   # :user_name =>      ENV['SMTP_LOGIN'],
-#   # :password =>       ENV['SMTP_PASSWORD'],
-#   # :domain =>         ENV['SMTP_DOMAIN'],
-#   # :authentication => ENV['SMTP_AUTHENTICATION'],
-#   :user_name => 'gabemdev',
-#   :password => 'Apple@115261982',
-#   :domain => 'phunware.com',
-#   :address => 'smtp.sendgrid.net',
-#   :port => 587,
-#   :authentication => :plain,
-#   :enable_starttls_auto => true
-# }
-
-# ActionMailer::Base.smtp_settings = {
-# :port           => 587,
-# :address        => "smtp.mailgun.org",
-# :domain         => ENV['SMTP_DOMAIN'],
-# :user_name      => ENV['SMTP_LOGIN'],
-# :password       => ENV['SMTP_PASSWORD'],
-# :authentication => :plain,
-# }
   config.action_mailer.default_url_options = {host: "localhost:3000"}
 
   # Print deprecation notices to the Rails logger.
