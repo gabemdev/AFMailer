@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head><meta content='text/html'; charset="utf-8" http-equiv="content-type"/></head>
+  <body>
+    <h1>Topic: <%= @form.topic %></h1>
+    <p>
+      <strong>From:</strong> </br>
+      <%= @form.from %>.</br>
+    </p>
+    <p>
+      <strong>Name:</strong></br>
+      <%= @form.name %>.</br>
+    </p>
+    <p>
+      <strong>Description:</strong> </br>
+      <%= @form.comments %>.</br>
+    </p>
+    <p>
+      <strong>###################################</strong></br>
+      <strong>App Name:</strong> <%= @form.app_name %></br>
+      <strong>App Version:</strong> <%= @form.app_version %></br>
+      <strong>Build Number:</strong> <%= @form.build_number %></br>
+      <strong>Device Model:</strong> <%= @form.device %></br>
+      <strong>iOS Version:</strong> <%= @form.os_version %></br>
+    </p>
+  </body>
+
+</html>
