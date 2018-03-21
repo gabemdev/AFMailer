@@ -16,7 +16,7 @@ if use_smtp
   :domain         => ENV['SMTP_DOMAIN'],
   :user_name      => ENV['SMTP_LOGIN'],
   :password       => ENV['SMTP_PASSWORD'],
-  :authentication => :plain,
+  :authentication => :plain
   }
 
   ActionMailer::Base.delivery_method = :smtp
